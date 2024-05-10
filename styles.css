@@ -2,54 +2,56 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 10px; /* Уменьшим отступы */
-    background-color: #f9f9f9; /* Добавим светлый фон */
+    padding: 0; /* Убираем отступы сверху */
+    background-color: #f9f9f9; 
 }
 
 .container {
     max-width: 100%;
     margin: auto;
-    background-color: #fff; /* Белый фон контейнера */
+    background-color: #fff; 
     padding: 20px;
-    border-radius: 10px; /* Закруглим углы контейнера */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавим тень */
+    padding-top: 0; /* Убираем отступы сверху */
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
     text-align: center;
-    color: #333; /* Цвет заголовка */
+    color: #333; 
 }
 
 h2 {
-    margin-top: 15px; /* Уменьшим отступ между заголовками */
+    margin-top: 15px; 
 }
 
 ul {
-    margin-bottom: 15px; /* Уменьшим отступ между списками */
+    margin-bottom: 15px; 
 }
 
 ul li {
-    margin-bottom: 8px; /* Уменьшим отступ между элементами списка */
+    margin-bottom: 8px; 
 }
 
 footer {
     margin-top: 30px;
     text-align: center;
     font-size: 0.8em;
-    color: #666; /* Цвет текста подвала */
+    color: #666; 
 }
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 22px; /* Уменьшим размер заголовка для маленьких экранов */
+        font-size: 22px; 
     }
 
     h2 {
-        font-size: 18px; /* Уменьшим размер заголовков в списке */
+        font-size: 18px; 
     }
 
     footer {
         font-size: 0.7em;
     }
 }
+
 
