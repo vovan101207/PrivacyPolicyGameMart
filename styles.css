@@ -11,7 +11,7 @@ body {
     margin: auto;
     background-color: #fff; 
     padding: 20px;
-    padding-top: 0; /* Убираем отступы сверху */
+    padding-top: 5; /* Убираем отступы сверху */
     border-radius: 10px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
